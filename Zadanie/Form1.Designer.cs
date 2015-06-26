@@ -59,6 +59,9 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.видеозвонокToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.настроитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.добавитьКонтактToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.удалитьКонтактToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -233,6 +236,8 @@
             // 
             // аккаунтToolStripMenuItem
             // 
+            this.аккаунтToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.настроитьToolStripMenuItem});
             this.аккаунтToolStripMenuItem.Name = "аккаунтToolStripMenuItem";
             resources.ApplyResources(this.аккаунтToolStripMenuItem, "аккаунтToolStripMenuItem");
             // 
@@ -245,6 +250,9 @@
             // 
             // контактыToolStripMenuItem
             // 
+            this.контактыToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.добавитьКонтактToolStripMenuItem,
+            this.удалитьКонтактToolStripMenuItem});
             this.контактыToolStripMenuItem.Name = "контактыToolStripMenuItem";
             resources.ApplyResources(this.контактыToolStripMenuItem, "контактыToolStripMenuItem");
             // 
@@ -267,6 +275,7 @@
             // 
             this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
             resources.ApplyResources(this.выходToolStripMenuItem, "выходToolStripMenuItem");
+            this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
             // textBox1
             // 
@@ -292,6 +301,21 @@
             // 
             this.видеозвонокToolStripMenuItem.Name = "видеозвонокToolStripMenuItem";
             resources.ApplyResources(this.видеозвонокToolStripMenuItem, "видеозвонокToolStripMenuItem");
+            // 
+            // настроитьToolStripMenuItem
+            // 
+            this.настроитьToolStripMenuItem.Name = "настроитьToolStripMenuItem";
+            resources.ApplyResources(this.настроитьToolStripMenuItem, "настроитьToolStripMenuItem");
+            // 
+            // добавитьКонтактToolStripMenuItem
+            // 
+            this.добавитьКонтактToolStripMenuItem.Name = "добавитьКонтактToolStripMenuItem";
+            resources.ApplyResources(this.добавитьКонтактToolStripMenuItem, "добавитьКонтактToolStripMenuItem");
+            // 
+            // удалитьКонтактToolStripMenuItem
+            // 
+            this.удалитьКонтактToolStripMenuItem.Name = "удалитьКонтактToolStripMenuItem";
+            resources.ApplyResources(this.удалитьКонтактToolStripMenuItem, "удалитьКонтактToolStripMenuItem");
             // 
             // fMain
             // 
@@ -358,6 +382,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.ToolStripMenuItem видеозвонокToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem настроитьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem добавитьКонтактToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem удалитьКонтактToolStripMenuItem;
     }
 }
 
