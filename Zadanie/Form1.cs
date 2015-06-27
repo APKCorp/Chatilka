@@ -31,5 +31,11 @@ namespace Zadanie
         {
             Close();
         }
+
+        private void добавитьКонтактToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            InsertForm Insert = new InsertForm();
+            Insert.Show();
+        }
     }
 }

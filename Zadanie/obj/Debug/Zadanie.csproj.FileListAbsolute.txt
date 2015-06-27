@@ -7,3 +7,13 @@ D:\My program\Visual Studio\Windows Projects\Задание\Zadanie\Zadanie\obj\
 D:\My program\Visual Studio\Windows Projects\Задание\Zadanie\Zadanie\obj\Debug\Zadanie.csproj.GenerateResource.Cache
 D:\My program\Visual Studio\Windows Projects\Задание\Zadanie\Zadanie\obj\Debug\Zadanie.exe
 D:\My program\Visual Studio\Windows Projects\Задание\Zadanie\Zadanie\obj\Debug\Zadanie.pdb
+C:\Users\ww\Desktop\chatilka\Chatilka\Zadanie\bin\Debug\Zadanie.exe.config
+C:\Users\ww\Desktop\chatilka\Chatilka\Zadanie\obj\Debug\Zadanie.exe
+C:\Users\ww\Desktop\chatilka\Chatilka\Zadanie\obj\Debug\Zadanie.pdb
+C:\Users\ww\Desktop\chatilka\Chatilka\Zadanie\obj\Debug\Zadanie.csprojResolveAssemblyReference.cache
+C:\Users\ww\Desktop\chatilka\Chatilka\Zadanie\obj\Debug\Zadanie.fMain.resources
+C:\Users\ww\Desktop\chatilka\Chatilka\Zadanie\obj\Debug\Zadanie.InsertForm.resources
+C:\Users\ww\Desktop\chatilka\Chatilka\Zadanie\obj\Debug\Zadanie.Properties.Resources.resources
+C:\Users\ww\Desktop\chatilka\Chatilka\Zadanie\obj\Debug\Zadanie.csproj.GenerateResource.Cache
+C:\Users\ww\Desktop\chatilka\Chatilka\Zadanie\bin\Debug\Zadanie.exe
+C:\Users\ww\Desktop\chatilka\Chatilka\Zadanie\bin\Debug\Zadanie.pdb
