@@ -45,7 +45,7 @@ namespace Zadanie
         }
 
         Thread rec = null;
-        UdpClient udp = new UdpClient(15000);
+        UdpClient udp = new UdpClient(20000);
         bool stopReceive = false;
 
         // Функция извлекающая пришедшие сообщения
@@ -59,7 +59,7 @@ namespace Zadanie
 
                     IPEndPoint ipendpoint = null;
                     byte[] message = udp.Receive(ref ipendpoint);
-                    //ShowMessage(Encoding.Default.GetString(message));
+                    ShowMessage(Encoding.Default.GetString(message));
 
                     // Если дана команда остановить поток, останавливаем бесконечный цикл.
                     if (stopReceive == true) break;
@@ -98,7 +98,7 @@ namespace Zadanie
 
    // Указываем адрес отправки сообщения
    IPAddress ipaddress = IPAddress.Parse(textBoxAddress.Text);
-   IPEndPoint ipendpoint = new IPEndPoint(ipaddress, 15000);
+   IPEndPoint ipendpoint = new IPEndPoint(ipaddress, 20000);
 
    // Формирование оправляемого сообщения и его отправка.
    // Сеть "понимает" только поток байтов и ей безразличны
@@ -106,6 +106,7 @@ namespace Zadanie
    /// сообщение в поток байтов.
    byte[] message = Encoding.Default.GetBytes(textBoxSend.Text);
    int sended = udp.Send(message, message.Length, ipendpoint);
+            
 
    // Если количество переданных байтов и предназначенных для 
    // отправки совпадают, то 99,9% вероятности, что они доберутся 
@@ -113,7 +114,7 @@ namespace Zadanie
    if (sended == message.Length)
    {
       // все в порядке
-      textBoxSend.Text = "";
+       textBoxSend.Text = "";
    }
       
 
