@@ -50,10 +50,7 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -63,15 +60,12 @@
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Controls.Add(this.groupBox4);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.label1);
             resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
@@ -200,24 +194,13 @@
             resources.ApplyResources(this.textBox2, "textBox2");
             this.textBox2.Name = "textBox2";
             // 
-            // label1
-            // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
-            // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
-            // 
             // fMain
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.textBox1);
@@ -227,8 +210,6 @@
             this.Name = "fMain";
             this.Load += new System.EventHandler(this.fMain_Load);
             this.panel1.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
@@ -262,8 +243,6 @@
         private System.Windows.Forms.ToolStripMenuItem текстToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem размерToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem цветToolStripMenuItem;
-        private System.Windows.Forms.Button button1;
-        public System.Windows.Forms.Label label1;
     }
 }
 

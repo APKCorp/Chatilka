@@ -13,6 +13,10 @@ namespace Zadanie
 {
     public partial class InsertForm : Form
     {
+        public int btnCount = 0; //количество кнопок Чат
+        public int lblCount = 0; //Количество имеющихся контактов
+        public Label[] lblKontMass;
+        public Button[] btnKontMass;
         public InsertForm()
         {
             InitializeComponent();
@@ -24,6 +28,69 @@ namespace Zadanie
             Insert1.Show();
         }
 
+        public void CreateComp(Form formMain, String name)
+        {
+            lblKontMass = new Label[30];
+            btnKontMass = new Button[30];
+
+            foreach (Control value in formMain.Controls)
+            {
+                if (value is Label)
+                {
+                    //перемення проверяющая является ли эта кнопка или lable входящими в инфу о контакте
+                    int Kont;
+                    Kont = value.Name.IndexOf("Kont");
+                    if (Kont > 0)
+                    {
+                        lblKontMass[lblCount] = new Label() { Name = "lblKont" + lblCount.ToString(), Location = new Point(value.Location.X, value.Location.Y) };
+                        lblCount++;
+                    }
+                }
+
+                if (value is Button)
+                {
+                    //перемення проверяющая является ли эта кнопка или lable входящими в инфу о контакте
+                    int Kont;
+                    Kont = value.Name.IndexOf("Kont");
+
+                    if (Kont > 0)
+                    {
+                        btnKontMass[btnCount] = new Button() { Name = "btnKont" + btnCount.ToString(), Location = new Point(value.Location.X, value.Location.Y), Text = value.Text };
+                        btnCount++;
+                    }
+                }
+            }
+                //Создание lable
+                Label lb = new Label();
+                lb.Name = "lblKont" + lblCount;
+                lb.Visible = true;
+                if (lblCount > 0)
+                {
+                    lb.Location = new Point(lblKontMass[lblCount - 1].Location.X, lblKontMass[lblCount - 1].Location.Y + 15);
+                }
+                else
+                {
+                    lb.Location = new Point(16, 34);
+                }
+                lb.Text = name;
+                formMain.Controls.Add(lb);
+
+                //Создание кнопки
+                Button bt = new Button();
+                bt.Name = "btnKont" + btnCount;
+                bt.Visible = true;
+                if (btnCount > 0)
+                {
+                    bt.Location = new Point(btnKontMass[btnCount - 1].Location.X, btnKontMass[btnCount - 1].Location.Y + 15);
+                }
+                else
+                {
+                    bt.Location = new Point(139, 31);
+                }
+                bt.Text = "Чат";
+                formMain.Controls.Add(bt);
+            
+        }
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
 
@@ -98,9 +165,8 @@ namespace Zadanie
  
 
         private void button2_Click(object sender, EventArgs e)
-        {
-          
-              fMain otherForm = new fMain();
+        {        
+            fMain otherForm = new fMain();
             int count=otherForm.Controls.Count;
             foreach (Control value in otherForm.Controls)
             {
@@ -115,8 +181,9 @@ namespace Zadanie
                  }
             }
 
-            otherForm.label1.Text=comboBox1.SelectedItem.ToString();
+            CreateComp(otherForm, comboBox1.Items[comboBox1.SelectedIndex].ToString());
             otherForm.Show();
+           // otherForm.Close();
             Close();
 
         }
