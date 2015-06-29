@@ -51,10 +51,13 @@
             this.textBoxSend = new System.Windows.Forms.TextBox();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
+<<<<<<< HEAD
             this.textBoxReceive = new System.Windows.Forms.TextBox();
             this.textBoxAddress = new System.Windows.Forms.TextBox();
+=======
+            this.textBox2 = new System.Windows.Forms.TextBox();
+>>>>>>> ef56ccda6ed7c49506347683ae6e15863c86b316
             this.panel1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -64,15 +67,12 @@
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Controls.Add(this.groupBox4);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.label1);
             resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
@@ -214,18 +214,26 @@
             resources.ApplyResources(this.textBoxReceive, "textBoxReceive");
             this.textBoxReceive.Name = "textBoxReceive";
             // 
+<<<<<<< HEAD
             // textBoxAddress
             // 
             resources.ApplyResources(this.textBoxAddress, "textBoxAddress");
             this.textBoxAddress.Name = "textBoxAddress";
             // 
+=======
+>>>>>>> ef56ccda6ed7c49506347683ae6e15863c86b316
             // fMain
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
+<<<<<<< HEAD
             this.Controls.Add(this.textBoxAddress);
             this.Controls.Add(this.textBoxReceive);
+=======
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.groupBox4);
+>>>>>>> ef56ccda6ed7c49506347683ae6e15863c86b316
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.textBoxSend);
@@ -235,8 +243,6 @@
             this.Name = "fMain";
             this.Load += new System.EventHandler(this.fMain_Load);
             this.panel1.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
@@ -270,9 +276,12 @@
         private System.Windows.Forms.ToolStripMenuItem текстToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem размерToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem цветToolStripMenuItem;
+<<<<<<< HEAD
         private System.Windows.Forms.Button button1;
         public System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBoxAddress;
+=======
+>>>>>>> ef56ccda6ed7c49506347683ae6e15863c86b316
     }
 }
 
