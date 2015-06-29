@@ -31,7 +31,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fMain));
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -40,15 +44,14 @@
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.аккаунтToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.настроитьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.звонкиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.видеозвонокToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.контактыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.добавитьКонтактToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.удалитьКонтактToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.видToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.инструментыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.цветФонаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.текстToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.размерToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.цветToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.помощьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -64,16 +67,20 @@
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Controls.Add(this.groupBox4);
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox1.Controls.Add(this.button4);
+            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.button2);
             this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
@@ -81,10 +88,34 @@
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
+            // button4
+            // 
+            resources.ApplyResources(this.button4, "button4");
+            this.button4.Name = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            resources.ApplyResources(this.button3, "button3");
+            this.button3.Name = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // label6
             // 
             resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -130,41 +161,14 @@
             // 
             // menuStrip1
             // 
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.аккаунтToolStripMenuItem,
-            this.звонкиToolStripMenuItem,
             this.контактыToolStripMenuItem,
             this.видToolStripMenuItem,
-            this.инструментыToolStripMenuItem,
             this.помощьToolStripMenuItem,
             this.выходToolStripMenuItem});
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
-            // 
-            // аккаунтToolStripMenuItem
-            // 
-            this.аккаунтToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.настроитьToolStripMenuItem});
-            this.аккаунтToolStripMenuItem.Name = "аккаунтToolStripMenuItem";
-            resources.ApplyResources(this.аккаунтToolStripMenuItem, "аккаунтToolStripMenuItem");
-            // 
-            // настроитьToolStripMenuItem
-            // 
-            this.настроитьToolStripMenuItem.Name = "настроитьToolStripMenuItem";
-            resources.ApplyResources(this.настроитьToolStripMenuItem, "настроитьToolStripMenuItem");
-            // 
-            // звонкиToolStripMenuItem
-            // 
-            this.звонкиToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.видеозвонокToolStripMenuItem});
-            this.звонкиToolStripMenuItem.Name = "звонкиToolStripMenuItem";
-            resources.ApplyResources(this.звонкиToolStripMenuItem, "звонкиToolStripMenuItem");
-            // 
-            // видеозвонокToolStripMenuItem
-            // 
-            this.видеозвонокToolStripMenuItem.Name = "видеозвонокToolStripMenuItem";
-            resources.ApplyResources(this.видеозвонокToolStripMenuItem, "видеозвонокToolStripMenuItem");
             // 
             // контактыToolStripMenuItem
             // 
@@ -187,13 +191,34 @@
             // 
             // видToolStripMenuItem
             // 
+            this.видToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.цветФонаToolStripMenuItem,
+            this.текстToolStripMenuItem});
             this.видToolStripMenuItem.Name = "видToolStripMenuItem";
             resources.ApplyResources(this.видToolStripMenuItem, "видToolStripMenuItem");
             // 
-            // инструментыToolStripMenuItem
+            // цветФонаToolStripMenuItem
             // 
-            this.инструментыToolStripMenuItem.Name = "инструментыToolStripMenuItem";
-            resources.ApplyResources(this.инструментыToolStripMenuItem, "инструментыToolStripMenuItem");
+            this.цветФонаToolStripMenuItem.Name = "цветФонаToolStripMenuItem";
+            resources.ApplyResources(this.цветФонаToolStripMenuItem, "цветФонаToolStripMenuItem");
+            // 
+            // текстToolStripMenuItem
+            // 
+            this.текстToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.размерToolStripMenuItem,
+            this.цветToolStripMenuItem});
+            this.текстToolStripMenuItem.Name = "текстToolStripMenuItem";
+            resources.ApplyResources(this.текстToolStripMenuItem, "текстToolStripMenuItem");
+            // 
+            // размерToolStripMenuItem
+            // 
+            this.размерToolStripMenuItem.Name = "размерToolStripMenuItem";
+            resources.ApplyResources(this.размерToolStripMenuItem, "размерToolStripMenuItem");
+            // 
+            // цветToolStripMenuItem
+            // 
+            this.цветToolStripMenuItem.Name = "цветToolStripMenuItem";
+            resources.ApplyResources(this.цветToolStripMenuItem, "цветToolStripMenuItem");
             // 
             // помощьToolStripMenuItem
             // 
@@ -235,6 +260,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.WindowFrame;
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
@@ -261,11 +287,8 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem аккаунтToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem звонкиToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem контактыToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem видToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem инструментыToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem помощьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
         private System.Windows.Forms.TextBox textBox1;
@@ -274,8 +297,6 @@
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.ToolStripMenuItem видеозвонокToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem настроитьToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem добавитьКонтактToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem удалитьКонтактToolStripMenuItem;
         private System.Windows.Forms.GroupBox groupBox1;
@@ -285,6 +306,14 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ToolStripMenuItem цветФонаToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem текстToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem размерToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem цветToolStripMenuItem;
     }
 }
 

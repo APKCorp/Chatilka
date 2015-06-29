@@ -17,3 +17,4 @@ C:\Users\ww\Desktop\chatilka\Chatilka\Zadanie\obj\Debug\Zadanie.Properties.Resou
 C:\Users\ww\Desktop\chatilka\Chatilka\Zadanie\obj\Debug\Zadanie.csproj.GenerateResource.Cache
 C:\Users\ww\Desktop\chatilka\Chatilka\Zadanie\bin\Debug\Zadanie.exe
 C:\Users\ww\Desktop\chatilka\Chatilka\Zadanie\bin\Debug\Zadanie.pdb
+C:\Users\ww\Desktop\chatilka\Chatilka\Zadanie\obj\Debug\Zadanie.Form3.resources
