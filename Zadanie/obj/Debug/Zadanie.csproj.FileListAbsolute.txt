@@ -18,3 +18,14 @@ C:\Users\ww\Desktop\chatilka\Chatilka\Zadanie\obj\Debug\Zadanie.csproj.GenerateR
 C:\Users\ww\Desktop\chatilka\Chatilka\Zadanie\bin\Debug\Zadanie.exe
 C:\Users\ww\Desktop\chatilka\Chatilka\Zadanie\bin\Debug\Zadanie.pdb
 C:\Users\ww\Desktop\chatilka\Chatilka\Zadanie\obj\Debug\Zadanie.Form3.resources
+D:\My program\Visual Studio\Windows Projects\Задание\Zadanie\Chatilka\Zadanie\bin\Debug\Zadanie.exe.config
+D:\My program\Visual Studio\Windows Projects\Задание\Zadanie\Chatilka\Zadanie\obj\Debug\Zadanie.exe
+D:\My program\Visual Studio\Windows Projects\Задание\Zadanie\Chatilka\Zadanie\obj\Debug\Zadanie.pdb
+D:\My program\Visual Studio\Windows Projects\Задание\Zadanie\Chatilka\Zadanie\bin\Debug\Zadanie.exe
+D:\My program\Visual Studio\Windows Projects\Задание\Zadanie\Chatilka\Zadanie\bin\Debug\Zadanie.pdb
+D:\My program\Visual Studio\Windows Projects\Задание\Zadanie\Chatilka\Zadanie\obj\Debug\Zadanie.csprojResolveAssemblyReference.cache
+D:\My program\Visual Studio\Windows Projects\Задание\Zadanie\Chatilka\Zadanie\obj\Debug\Zadanie.fMain.resources
+D:\My program\Visual Studio\Windows Projects\Задание\Zadanie\Chatilka\Zadanie\obj\Debug\Zadanie.InsertForm.resources
+D:\My program\Visual Studio\Windows Projects\Задание\Zadanie\Chatilka\Zadanie\obj\Debug\Zadanie.Form3.resources
+D:\My program\Visual Studio\Windows Projects\Задание\Zadanie\Chatilka\Zadanie\obj\Debug\Zadanie.Properties.Resources.resources
+D:\My program\Visual Studio\Windows Projects\Задание\Zadanie\Chatilka\Zadanie\obj\Debug\Zadanie.csproj.GenerateResource.Cache
