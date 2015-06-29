@@ -16,6 +16,13 @@ namespace Zadanie
         {
             InitializeComponent();
         }
+        public void ShowComp()
+        {
+            textBox1.Visible = true;
+            textBox2.Visible = true;
+            button7.Visible = true;
+            button8.Visible = true;
+        }
 
         private void groupBox1_Enter(object sender, EventArgs e)
         {
@@ -36,6 +43,16 @@ namespace Zadanie
         {
             InsertForm Insert = new InsertForm();
             Insert.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

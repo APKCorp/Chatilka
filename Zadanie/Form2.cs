@@ -94,5 +94,31 @@ namespace Zadanie
             button1.Enabled = true;
 
         }
+
+ 
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+          
+              fMain otherForm = new fMain();
+            int count=otherForm.Controls.Count;
+            foreach (Control value in otherForm.Controls)
+            {
+                if (value is Label)
+                {
+                    Object selectedItem = comboBox1.SelectedItem;
+                    if(value.Text == selectedItem.ToString())
+                        {
+                            MessageBox.Show("Данный пользователь находится у вас в контактах","Внимание",MessageBoxButtons.OK,MessageBoxIcon.Exclamation);
+                        }
+                   // value.Tag = count;
+                 }
+            }
+
+            otherForm.label1.Text=comboBox1.SelectedItem.ToString();
+            otherForm.Show();
+            Close();
+
+        }
     }
 }
